@@ -25,7 +25,7 @@ return (
         )
      })}
     <div>
-      {info ? `Your appointment is set to ${event} ${props.date.toDateString()}` : null}
+      {info ? `Your appointment is set for: ${event} ${props.date.toDateString()}` : null}
     </div>
  </div>
   )

@@ -23,7 +23,7 @@ function App() {
    </p>
         ) : (
    <p>
-     <span>Default selected date:</span>{date.toDateString()}
+     <span>Day of the selected appointment:</span>{date.toDateString()}
    </p>
         )}
      <Time showTime={showTime} date={date}/>   
